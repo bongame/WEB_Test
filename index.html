@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | BuzzOrDie</title>
+    <title>Unity WebGL Player | BuzzOrDie-demo</title>
     <link rel="icon" type="image/png" href="./favicon.png">
     <link rel="apple-touch-icon" href="./app_icon.png">
     <link rel="stylesheet" href="TemplateData/style.css">
@@ -21,19 +21,19 @@
       <div id="unity-footer">
         <div id="unity-webgl-logo"></div>
         <div id="unity-fullscreen-button"></div>
-        <div id="unity-build-title">BuzzOrDie</div>
+        <div id="unity-build-title">BuzzOrDie-demo</div>
       </div>
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/BoD.loader.js";
+      var loaderUrl = buildUrl + "/WebGame.loader.js";
       var config = {
-        dataUrl: buildUrl + "/BoD.data",
-        frameworkUrl: buildUrl + "/BoD.framework.js",
-        codeUrl: buildUrl + "/BoD.wasm",
+        dataUrl: buildUrl + "/WebGame.data",
+        frameworkUrl: buildUrl + "/WebGame.framework.js",
+        codeUrl: buildUrl + "/WebGame.wasm",
         streamingAssetsUrl: "StreamingAssets",
-        companyName: "DefaultCompany",
-        productName: "BuzzOrDie",
+        companyName: "Bon",
+        productName: "BuzzOrDie-demo",
         productVersion: "1.0",
       };
 
